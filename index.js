@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require('express');
 const app = express();
-const { json} = require('body-parser');
+const { json } = require('body-parser');
 const massive = require('massive');
 const { getBands, addBand, updateBand, deleteBand } = require("./controller");
 
